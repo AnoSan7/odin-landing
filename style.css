@@ -6,7 +6,7 @@ body{
     /* overflow: hidden; */
     /* height: 100vh; */
     /* align-items: center; */
-    font-family: roboto;
+    font-family: Roboto;
 }
 
 .header{
@@ -22,6 +22,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding-top: 1em;
+    gap: 16px;
 }
 
 .header .text1{
@@ -53,7 +54,13 @@ ul{
     padding: 0;
     display: flex;
     justify-content: space-between;
-    gap: 16px
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 .image{
@@ -63,37 +70,57 @@ ul{
     justify-content: center;
     text-align: center;
     width: 500px;
-
     padding: 16px;
 }
 
 .quote{
-    margin: 0 300px;
+    padding: 4em 350px;
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-size: 24px;
 }
 
 .author{
     display: flex;
     flex-direction: row-reverse;
+    font-style:normal;
+    font-weight: bold;
+    font-size: 24px;
 }
-
+.final{
+    padding:0 10em;
+}
 .notific{
     display: flex;
-    gap: 48px;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #3882f6;
-    padding: 6px;
-    width: 30em;
-    margin: 2em auto;
+    padding: 3em 3em;
+    margin: 5em auto;
+    border-radius: 5px;
+    color: white;
+}
+
+.notific .text1{
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .footer{
     background-color: #1F2937;
     text-align: center;
+    color: white;
+    padding: 16px;
 }
 
 .content{
     text-align: center;
     padding: 0 10em;
+    padding-bottom: 5em;
+}
+
+.content ul{
+    justify-content: center;
+    gap: 32px;
 }
 
 .content li{
@@ -101,12 +128,23 @@ ul{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: 130px;
+    color: lightslategray;
+}
+
+.content .heading{
+    font-weight: 900;
+    font-size: 36px;
+    padding: 36px;
 }
 
 .imagebox{
-    background-color: lightgray;
+    background-color: white;
     width: 130px;
     height: 130px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #3882f6;
 }
 
 button{
@@ -116,9 +154,18 @@ button{
     background-color: #3882f6;
     border: none;
     border-radius:5px;
+    padding: 8px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .notific button{
     border-style: solid;;
     border-color: white;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
 }
