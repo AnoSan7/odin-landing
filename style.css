@@ -5,4 +5,68 @@ body{
     margin: 0;
     overflow: hidden;
     height: 100vh;
+    /* align-items: center; */
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.upper,.lower{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px
+}
+
+.image{
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    padding: 16px;
+}
+
+.quote{
+    margin: 0 300px;
+}
+
+.author{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.notific{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+
+.footer{
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+}
+
+.content li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.imagebox{
+    background-color: lightgray;
+    width: 130px;
+    height: 130px;
 }
