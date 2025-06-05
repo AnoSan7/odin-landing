@@ -2,28 +2,49 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0 48px;
+    margin: 0;
     /* overflow: hidden; */
-    height: 100vh;
-    align-items: center;
+    /* height: 100vh; */
+    /* align-items: center; */
+    font-family: roboto;
 }
 
 .header{
     display: flex;
     flex-direction: column;
-    margin: 8px;
+    margin: 0;
+    background-color: #1F2937;
+    padding: 0 10em;
+    color: white;
 }
 
 .upper{
     display: flex;
     justify-content: space-between;
+    padding-top: 1em;
+}
+
+.header .text1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header .text2{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.header .text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .lower{
     display: flex;
     justify-content: center;
     gap: 16px;
-    padding: 16px 0;
+    padding: 48px 0;
 }
 
 ul{
@@ -31,17 +52,18 @@ ul{
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: space-between;
     gap: 16px
 }
 
 .image{
-    background-color: lightgray;
+    background-color: darkgray;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 300px;
-    aspect-ratio: 3.5;
+    width: 500px;
+
     padding: 16px;
 }
 
@@ -58,14 +80,20 @@ ul{
     display: flex;
     gap: 48px;
     justify-content: center;
+    background-color: #3882f6;
+    padding: 6px;
+    width: 30em;
+    margin: 2em auto;
 }
 
 .footer{
+    background-color: #1F2937;
     text-align: center;
 }
 
 .content{
     text-align: center;
+    padding: 0 10em;
 }
 
 .content li{
@@ -79,4 +107,18 @@ ul{
     background-color: lightgray;
     width: 130px;
     height: 130px;
+}
+
+button{
+    width: 100px;
+    height: 32px;
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    border-radius:5px;
+}
+
+.notific button{
+    border-style: solid;;
+    border-color: white;
 }
