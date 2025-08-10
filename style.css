@@ -12,7 +12,7 @@ body{
     flex-direction: column;
     margin: 0;
     background-color: #1F2937;
-    padding: 0 15vw;
+    padding: 0 10vw;
     color: white;
     padding-top: 2em;
 }
@@ -78,7 +78,7 @@ a:active{
     justify-content: center;
     text-align: center;
     width: 500px;
-    aspect-ratio: 1/1;
+    aspect-ratio: 2/1;
     padding: 16px;
 }
 
