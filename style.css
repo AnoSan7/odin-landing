@@ -43,7 +43,7 @@ body{
 
 .lower{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 16px;
     padding: 48px 0;
 }
