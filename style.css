@@ -193,4 +193,10 @@ button:active{
     .links{
         flex-direction: column;
     }
+    .lower{
+        flex-direction: column;
+    }
+    .image{
+        width: 100%;
+    }
 }
